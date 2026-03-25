@@ -10,7 +10,7 @@ body {
 
 /* Estilos para las imágenes de relleno */
 .placeholder-img {
-    width: 100%;
+    width: 40%;
     object-fit: cover;
     border-radius: 8px;
 }
