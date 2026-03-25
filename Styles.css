@@ -7,9 +7,11 @@ body {
 }
 
 .placeholder-img {
-    width: 10cm;
-    object-fit: cover;
-    border-radius: 2px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 /* Altura de la imagen principal */
