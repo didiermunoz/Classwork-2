@@ -1,26 +1,22 @@
-/* Desplazamiento suave para los enlaces del menú */
 html {
     scroll-behavior: smooth;
 }
 
-/* Margen superior para que la barra fija no tape el contenido */
 body {
-    padding-top: 70px; 
+    padding-top: 70px;
 }
 
-/* Estilos para las imágenes de relleno */
 .placeholder-img {
-    width: 40%;
+    width: 10cm;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 2px;
 }
 
 /* Altura de la imagen principal */
 .hero-img {
-    height: 70vh; /* Ajusta este valor según lo que prefieras (ej. 600px) */
+    height: 70vh;
 }
 
-/* Espacio extra entre las filas de las secciones */
 .espacio-extra {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -28,10 +24,9 @@ body {
 
 @font-face {
     font-family: 'MedievalMystery';
-    src: url('MedievalMystery.ttf') format('truetype'); /* Cambia el .ttf si tu archivo es .otf o .woff */
+    src: url('MedievalMystery.ttf') format('truetype');
 }
 
-/* 2. Crear una clase para aplicar la fuente */
 .titulo-medieval {
-    font-family: 'MedievalMystery', cursive; /* 'cursive' es por si la fuente principal falla */
+    font-family: 'MedievalMystery', cursive; 
 }
